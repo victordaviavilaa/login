@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="di">
+    <label for="email" class="infos">Email</label>
+    <br>
+    <input type="email" class="infos" id="idinputemail">
+    <br>
+    <label for="senha" class="infos">senha</label>
+    <br>
+    <input type="password" class="infos" id="idinputpassword">
+    <br>
+    <br>
+    <button id="registrar" onclick="cadastro()">Registrar</button>
+    <button id="idlogin">Login</button>
+</div>
+</body>
+<script src="script.js"></script>
+<script src="firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-auth-compat.js"></script>
+
+</html>
